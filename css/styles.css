@@ -15,7 +15,7 @@
   --color-opacity: rgba(0, 0, 0, 0.2);
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--text-color);
 }
 /*NORMALIZER*/
@@ -56,7 +56,7 @@ address {
   color: var(--background-color);
 }
 .current::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -90,7 +90,7 @@ address {
   border-bottom: 1px rgba(236, 236, 236, 1);
 }
 .home-link {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   display: flex;
   text-decoration: none;
   font-size: 26px;
@@ -155,7 +155,7 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-styles {
-  font-family: 'roboto';
+  font-family: "roboto";
   font-style: normal;
   font-size: 16px;
   font-weight: 700;
@@ -356,13 +356,13 @@ h4 {
   height: 44px;
   border-radius: 50px;
   fill: var(--paragraph-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-circle:hover,
 .social-icons:hover {
   background-color: var(--background-color);
   fill: var(--secondary-text-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 p {
